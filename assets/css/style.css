@@ -4,3 +4,25 @@
     border: 1px solid black ;
 
 }
+
+.debug .about .row .row [class^="col"]{
+    height: calc(100px / 4);
+    background-color: aquamarine ;
+    border: 1px solid black ;
+
+}
+
+
+
+@media screen and (min-width:576px) {
+    .debug .about .row .row [class^="col"]{
+        height: calc(100px / 3);
+        background-color: aquamarine ;
+        border: 1px solid black ;
+    
+    }
+    
+}
+
+
+
