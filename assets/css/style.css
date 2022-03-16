@@ -16,16 +16,7 @@
     background-color: var(--bg_freelancer_light);
 }
 
-.jumbotron > .row > .col > img{
-    max-height: 300px;
-}
 
-.debug [class^="col"]{
-    
-    
-    border: 1px solid black ;
-
-}
 
 .debug .about .row .row [class^="col"]{
     height: calc(100px / 4);
@@ -33,6 +24,10 @@
 
 }
 
+.form-control::placeholder{
+    color: black;
+    opacity: 1;
+}
 
 
 @media screen and (min-width:576px) {
@@ -43,6 +38,12 @@
     }
     
 }
+
+
+.jumbotron > .row > .col > img{
+    max-height: 300px;
+}
+
 
 
 
