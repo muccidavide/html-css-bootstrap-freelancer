@@ -1,14 +1,35 @@
+:root {
+    --bg_freelancer_primary: #2C3E50;
+    --bg_freelancer_secondary: #1ABC9C;
+    --bg_freelancer_light: #3A546D;
+    --color-border-bottom: #CCCCCC;
+}
+
+.bg_freelancer_primary{
+    background-color: var(--bg_freelancer_primary);
+}
+
+.bg_freelancer_secondary{
+    background-color: var(--bg_freelancer_secondary);
+}
+.bg_freelancer_light{
+    background-color: var(--bg_freelancer_light);
+}
+
+.jumbotron > .row > .col > img{
+    max-height: 300px;
+}
+
 .debug [class^="col"]{
-    height: 100px;
-    background-color: aquamarine ;
+    
+    
     border: 1px solid black ;
 
 }
 
 .debug .about .row .row [class^="col"]{
     height: calc(100px / 4);
-    background-color: aquamarine ;
-    border: 1px solid black ;
+    
 
 }
 
@@ -17,8 +38,7 @@
 @media screen and (min-width:576px) {
     .debug .about .row .row [class^="col"]{
         height: calc(100px / 3);
-        background-color: aquamarine ;
-        border: 1px solid black ;
+       
     
     }
     
