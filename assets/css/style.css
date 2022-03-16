@@ -45,5 +45,9 @@ a{
     line-height: 20px;
 }
 
+/* Footer */
 
+#footer_site > .container-md{
+    min-height: 200px;
+}
 
